@@ -1,0 +1,193 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.ABC{
+    max-width: 1000px;
+ 	margin: auto;
+
+}
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;    
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color:orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;   
+}
+.menu>ul>li:hover>ul{
+    display: block;
+      
+}
+.menu ul ul a:hover{
+    background-color:orangered;
+    color:white;
+}
+header{
+height: 0px;
+    background-color: rgb(107,101,124);
+    background-image: url(img/bongda.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 25%;    
+}
+article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float:left;
+}
+aside{
+   min-height: 400px;
+   width: 25%;
+   background-color: lightgray;
+   float:right;
+}
+footer{
+    border-top: 5px double orange;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.Chu{
+    position: absolute;
+	left: 270px;
+	bottom: 525px;
+	font-family: Verdana, Geneva, sans-serif;
+    top: 190px;
+}
+.chu1{    
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: chartreuse;
+    box-shadow: rgb(238, 255, 0);
+}
+.chu2{
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: rgb(238, 255, 0);
+}
+.chu3{
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: rgb(238, 255, 0);
+}
+.Dmenu{ 
+    padding: 0px;
+    margin: 0px;
+    list-style-type: circle;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #33FFFF; }
+.Dmenu a{ 
+    display: block;
+    border-bottom: 1px dotted #33CCFF;
+    color: #06C;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 100px; }
+.Dmenu a:hover{ 
+    font-weight: bold;
+    color: #009;
+    background-color: #3FF; }
+    .login{
+        width: 400px;  
+        position:absolute;
+        right: 269px;
+        top: 0px;
+        border-bottom-left-radius: 70px;
+        background-color:orangered;
+    }
+    .menudangnhap{
+        list-style: none;
+        margin: 5px;
+        padding: 10px;
+        box-shadow: 0 0 15px #FFFFFF;
+    }
+    .menudangnhap>li{
+        float: left;
+        margin: 0 10px;
+    }
+    .menudangnhap>li>a{
+        display: block;
+        line-height: 25px;
+        text-decoration: none;
+        font-variant: small-caps;
+        padding-left: 5px;
+        color: white;
+    }
+    .menudangnhap>li>a:hover{
+        color:rgb(16, 233, 160);
+        font-weight:bold;
+    }
+    #slideshow {
+        overflow: hidden;
+        height: 510px;
+        width: 728px;
+        margin: 0 auto;
+      }
+      
+      .slide-wrapper {
+        width: 2912px;
+        -webkit-animation: slide 14s ease infinite;
+      }
+      
+      .slide {
+        float: left;
+        height: 510px;
+        width: 728px;
+      }
+      
+      
+      @-webkit-keyframes slide {
+        20% {margin-left: 0px;}
+        30% {margin-left: -728px;}
+        50% {margin-left: -728px;}
+        60% {margin-left: -1456px;}
+        80% {margin-left: -1456px;}
+      }
